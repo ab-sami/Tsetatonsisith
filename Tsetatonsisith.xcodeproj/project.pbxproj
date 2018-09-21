@@ -3,25 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26312F462153D749005C177E /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F452153D749005C177E /* DataFetcher.swift */; };
+		26312F492153D813005C177E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F482153D813005C177E /* Cache.swift */; };
+		26312F4B2153D901005C177E /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F4A2153D901005C177E /* DataRequest.swift */; };
+		26312F4E2153DB0C005C177E /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F4D2153DB0C005C177E /* Int.swift */; };
+		26312F502153DB45005C177E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F4F2153DB45005C177E /* String.swift */; };
+		26312F522153DD00005C177E /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F512153DD00005C177E /* DataResponse.swift */; };
+		26312F542153DFC4005C177E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F532153DFC4005C177E /* Dictionary.swift */; };
+		26312F562153E1EE005C177E /* DeliveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F552153E1EE005C177E /* DeliveryManager.swift */; };
+		26312F582153E2D9005C177E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F572153E2D9005C177E /* ApiService.swift */; };
+		26312F60215417D9005C177E /* DeliveryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F5F215417D9005C177E /* DeliveryDetailsViewController.swift */; };
+		26312F6321541B9A005C177E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26312F6221541B9A005C177E /* LoadingView.swift */; };
+		26ED1B5E215504A900A1C066 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED1B5D215504A900A1C066 /* UIView.swift */; };
+		26ED1B6021550B6900A1C066 /* DeliverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED1B5F21550B6900A1C066 /* DeliverTableViewCell.swift */; };
+		26ED1B632155365A00A1C066 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED1B622155365A00A1C066 /* CustomImageView.swift */; };
+		26ED1B652155532600A1C066 /* ArtWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED1B642155532600A1C066 /* ArtWork.swift */; };
 		26ED4CDC2153ACD000AC9C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CDB2153ACD000AC9C12 /* AppDelegate.swift */; };
-		26ED4CDE2153ACD000AC9C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CDD2153ACD000AC9C12 /* ViewController.swift */; };
-		26ED4CE12153ACD000AC9C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26ED4CDF2153ACD000AC9C12 /* Main.storyboard */; };
+		26ED4CDE2153ACD000AC9C12 /* DeliveryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CDD2153ACD000AC9C12 /* DeliveryListViewController.swift */; };
 		26ED4CE32153ACD200AC9C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26ED4CE22153ACD200AC9C12 /* Assets.xcassets */; };
 		26ED4CE62153ACD200AC9C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26ED4CE42153ACD200AC9C12 /* LaunchScreen.storyboard */; };
+		26ED4CF42153B2C300AC9C12 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CF32153B2C300AC9C12 /* Delivery.swift */; };
+		26ED4CF62153B2D700AC9C12 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CF52153B2D700AC9C12 /* Location.swift */; };
+		26ED4CF92153B55700AC9C12 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CF82153B55700AC9C12 /* TypeAliases.swift */; };
+		26ED4CFB2153B5C400AC9C12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CFA2153B5C400AC9C12 /* Constants.swift */; };
+		26ED4CFE2153B6A700AC9C12 /* DeliveryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CFD2153B6A700AC9C12 /* DeliveryListViewModel.swift */; };
+		26ED4D002153B76700AC9C12 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ED4CFF2153B76700AC9C12 /* BaseViewModel.swift */; };
+		6605CF7AD6C06B4E9DB7BD93 /* Pods_Tsetatonsisith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1F7C8F09445A17E084726 /* Pods_Tsetatonsisith.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26312F452153D749005C177E /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		26312F482153D813005C177E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		26312F4A2153D901005C177E /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		26312F4D2153DB0C005C177E /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		26312F4F2153DB45005C177E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		26312F512153DD00005C177E /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		26312F532153DFC4005C177E /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		26312F552153E1EE005C177E /* DeliveryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryManager.swift; sourceTree = "<group>"; };
+		26312F572153E2D9005C177E /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		26312F5F215417D9005C177E /* DeliveryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailsViewController.swift; sourceTree = "<group>"; };
+		26312F6221541B9A005C177E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		26ED1B5D215504A900A1C066 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		26ED1B5F21550B6900A1C066 /* DeliverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverTableViewCell.swift; sourceTree = "<group>"; };
+		26ED1B622155365A00A1C066 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		26ED1B642155532600A1C066 /* ArtWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtWork.swift; sourceTree = "<group>"; };
 		26ED4CD82153ACD000AC9C12 /* Tsetatonsisith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tsetatonsisith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26ED4CDB2153ACD000AC9C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26ED4CDD2153ACD000AC9C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26ED4CE02153ACD000AC9C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26ED4CDD2153ACD000AC9C12 /* DeliveryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryListViewController.swift; sourceTree = "<group>"; };
 		26ED4CE22153ACD200AC9C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26ED4CE52153ACD200AC9C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26ED4CE72153ACD200AC9C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26ED4CF32153B2C300AC9C12 /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		26ED4CF52153B2D700AC9C12 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		26ED4CF82153B55700AC9C12 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		26ED4CFA2153B5C400AC9C12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		26ED4CFD2153B6A700AC9C12 /* DeliveryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryListViewModel.swift; sourceTree = "<group>"; };
+		26ED4CFF2153B76700AC9C12 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		66E1F7C8F09445A17E084726 /* Pods_Tsetatonsisith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tsetatonsisith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		927721652973BB2BF83BE933 /* Pods-Tsetatonsisith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsetatonsisith.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsetatonsisith/Pods-Tsetatonsisith.debug.xcconfig"; sourceTree = "<group>"; };
+		D3670AB32D36239B0E3006A5 /* Pods-Tsetatonsisith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsetatonsisith.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsetatonsisith/Pods-Tsetatonsisith.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6605CF7AD6C06B4E9DB7BD93 /* Pods_Tsetatonsisith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26312F472153D7FB005C177E /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				26312F482153D813005C177E /* Cache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		26312F4C2153DAF1005C177E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26312F4D2153DB0C005C177E /* Int.swift */,
+				26312F4F2153DB45005C177E /* String.swift */,
+				26312F532153DFC4005C177E /* Dictionary.swift */,
+				26ED1B5D215504A900A1C066 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26312F592154162C005C177E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CF22153B21300AC9C12 /* APIManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		26312F6121541B73005C177E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				26312F6221541B9A005C177E /* LoadingView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		26ED1B612155364800A1C066 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				26ED1B622155365A00A1C066 /* CustomImageView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		26ED4CCF2153ACD000AC9C12 = {
 			isa = PBXGroup;
 			children = (
 				26ED4CDA2153ACD000AC9C12 /* Tsetatonsisith */,
 				26ED4CD92153ACD000AC9C12 /* Products */,
+				DFEDEA084144ED60766E500C /* Pods */,
+				CBAE94DC9FBAB0FD8E54782E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +144,112 @@
 		26ED4CDA2153ACD000AC9C12 /* Tsetatonsisith */ = {
 			isa = PBXGroup;
 			children = (
+				26ED1B612155364800A1C066 /* CustomView */,
+				26312F6121541B73005C177E /* Utility */,
+				26312F592154162C005C177E /* Managers */,
+				26312F4C2153DAF1005C177E /* Extensions */,
+				26ED4CFC2153B68F00AC9C12 /* ViewModels */,
+				26ED4CF72153B52B00AC9C12 /* Global */,
+				26ED4CF12153B20100AC9C12 /* Models */,
+				26ED4CF02153B1CD00AC9C12 /* Assets */,
+				26ED4CED2153B1A300AC9C12 /* Modules */,
 				26ED4CDB2153ACD000AC9C12 /* AppDelegate.swift */,
-				26ED4CDD2153ACD000AC9C12 /* ViewController.swift */,
-				26ED4CDF2153ACD000AC9C12 /* Main.storyboard */,
-				26ED4CE22153ACD200AC9C12 /* Assets.xcassets */,
 				26ED4CE42153ACD200AC9C12 /* LaunchScreen.storyboard */,
 				26ED4CE72153ACD200AC9C12 /* Info.plist */,
 			);
 			path = Tsetatonsisith;
+			sourceTree = "<group>";
+		};
+		26ED4CED2153B1A300AC9C12 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CEF2153B1BF00AC9C12 /* DeliveryDetails */,
+				26ED4CEE2153B1AD00AC9C12 /* DeliveryList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		26ED4CEE2153B1AD00AC9C12 /* DeliveryList */ = {
+			isa = PBXGroup;
+			children = (
+				26ED1B5F21550B6900A1C066 /* DeliverTableViewCell.swift */,
+				26ED4CDD2153ACD000AC9C12 /* DeliveryListViewController.swift */,
+			);
+			path = DeliveryList;
+			sourceTree = "<group>";
+		};
+		26ED4CEF2153B1BF00AC9C12 /* DeliveryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				26312F5F215417D9005C177E /* DeliveryDetailsViewController.swift */,
+				26ED1B642155532600A1C066 /* ArtWork.swift */,
+			);
+			path = DeliveryDetails;
+			sourceTree = "<group>";
+		};
+		26ED4CF02153B1CD00AC9C12 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CE22153ACD200AC9C12 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		26ED4CF12153B20100AC9C12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CF32153B2C300AC9C12 /* Delivery.swift */,
+				26ED4CF52153B2D700AC9C12 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26ED4CF22153B21300AC9C12 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				26312F472153D7FB005C177E /* Cache */,
+				26312F452153D749005C177E /* DataFetcher.swift */,
+				26312F4A2153D901005C177E /* DataRequest.swift */,
+				26312F512153DD00005C177E /* DataResponse.swift */,
+				26312F552153E1EE005C177E /* DeliveryManager.swift */,
+				26312F572153E2D9005C177E /* ApiService.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		26ED4CF72153B52B00AC9C12 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CF82153B55700AC9C12 /* TypeAliases.swift */,
+				26ED4CFA2153B5C400AC9C12 /* Constants.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		26ED4CFC2153B68F00AC9C12 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4CFD2153B6A700AC9C12 /* DeliveryListViewModel.swift */,
+				26ED4CFF2153B76700AC9C12 /* BaseViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CBAE94DC9FBAB0FD8E54782E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E1F7C8F09445A17E084726 /* Pods_Tsetatonsisith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFEDEA084144ED60766E500C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				927721652973BB2BF83BE933 /* Pods-Tsetatonsisith.debug.xcconfig */,
+				D3670AB32D36239B0E3006A5 /* Pods-Tsetatonsisith.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26ED4CEA2153ACD200AC9C12 /* Build configuration list for PBXNativeTarget "Tsetatonsisith" */;
 			buildPhases = (
+				BC8C23AA5BA8128D943722C0 /* [CP] Check Pods Manifest.lock */,
 				26ED4CD42153ACD000AC9C12 /* Sources */,
 				26ED4CD52153ACD000AC9C12 /* Frameworks */,
 				26ED4CD62153ACD000AC9C12 /* Resources */,
+				7887E6597C8858D125B80C2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,11 +286,12 @@
 				TargetAttributes = {
 					26ED4CD72153ACD000AC9C12 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 26ED4CD32153ACD000AC9C12 /* Build configuration list for PBXProject "Tsetatonsisith" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,33 +315,88 @@
 			files = (
 				26ED4CE62153ACD200AC9C12 /* LaunchScreen.storyboard in Resources */,
 				26ED4CE32153ACD200AC9C12 /* Assets.xcassets in Resources */,
-				26ED4CE12153ACD000AC9C12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7887E6597C8858D125B80C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tsetatonsisith/Pods-Tsetatonsisith-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tsetatonsisith/Pods-Tsetatonsisith-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8C23AA5BA8128D943722C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsetatonsisith-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26ED4CD42153ACD000AC9C12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26ED4CDE2153ACD000AC9C12 /* ViewController.swift in Sources */,
+				26ED4CDE2153ACD000AC9C12 /* DeliveryListViewController.swift in Sources */,
+				26ED1B632155365A00A1C066 /* CustomImageView.swift in Sources */,
+				26312F502153DB45005C177E /* String.swift in Sources */,
+				26ED1B5E215504A900A1C066 /* UIView.swift in Sources */,
+				26312F582153E2D9005C177E /* ApiService.swift in Sources */,
+				26312F60215417D9005C177E /* DeliveryDetailsViewController.swift in Sources */,
+				26312F6321541B9A005C177E /* LoadingView.swift in Sources */,
+				26312F4B2153D901005C177E /* DataRequest.swift in Sources */,
+				26ED4CFE2153B6A700AC9C12 /* DeliveryListViewModel.swift in Sources */,
+				26312F4E2153DB0C005C177E /* Int.swift in Sources */,
+				26ED1B6021550B6900A1C066 /* DeliverTableViewCell.swift in Sources */,
+				26ED4CF42153B2C300AC9C12 /* Delivery.swift in Sources */,
+				26ED4CF62153B2D700AC9C12 /* Location.swift in Sources */,
+				26ED4CF92153B55700AC9C12 /* TypeAliases.swift in Sources */,
+				26ED4D002153B76700AC9C12 /* BaseViewModel.swift in Sources */,
+				26312F492153D813005C177E /* Cache.swift in Sources */,
+				26312F522153DD00005C177E /* DataResponse.swift in Sources */,
+				26312F542153DFC4005C177E /* Dictionary.swift in Sources */,
+				26312F462153D749005C177E /* DataFetcher.swift in Sources */,
 				26ED4CDC2153ACD000AC9C12 /* AppDelegate.swift in Sources */,
+				26ED1B652155532600A1C066 /* ArtWork.swift in Sources */,
+				26ED4CFB2153B5C400AC9C12 /* Constants.swift in Sources */,
+				26312F562153E1EE005C177E /* DeliveryManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		26ED4CDF2153ACD000AC9C12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26ED4CE02153ACD000AC9C12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26ED4CE42153ACD200AC9C12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,22 +516,20 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		26ED4CEB2153ACD200AC9C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927721652973BB2BF83BE933 /* Pods-Tsetatonsisith.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tsetatonsisith/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdulsami.Tsetatonsisith;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,14 +539,13 @@
 		};
 		26ED4CEC2153ACD200AC9C12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3670AB32D36239B0E3006A5 /* Pods-Tsetatonsisith.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tsetatonsisith/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdulsami.Tsetatonsisith;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

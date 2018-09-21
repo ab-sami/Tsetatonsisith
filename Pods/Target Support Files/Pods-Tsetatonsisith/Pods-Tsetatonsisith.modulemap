@@ -1,0 +1,6 @@
+framework module Pods_Tsetatonsisith {
+  umbrella header "Pods-Tsetatonsisith-umbrella.h"
+
+  export *
+  module * { export * }
+}
