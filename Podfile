@@ -8,6 +8,5 @@ target 'Tsetatonsisith' do
   
   pod 'Alamofire', '~> 4.7.2'
   pod 'SwiftyJSON', '~> 4.0.0'
-  pod 'PromiseKit/CorePromise', '~> 4.5'
 
 end

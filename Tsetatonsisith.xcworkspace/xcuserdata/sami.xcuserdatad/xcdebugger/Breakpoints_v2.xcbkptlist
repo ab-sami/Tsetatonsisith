@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
-            timestampString = "559244844.439306"
+            timestampString = "559902571.302869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
-            timestampString = "559244844.439733"
+            timestampString = "559902571.3043081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
-            timestampString = "559244844.4400361"
+            timestampString = "559902571.305279"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
-            timestampString = "559244844.44033"
+            timestampString = "559902571.306337"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DeliveryManager.swift"
-            timestampString = "559244844.440622"
+            timestampString = "559902571.307241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -202,13 +202,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tsetatonsisith/Managers/APIManager/DeliveryManager.swift"
-            timestampString = "559244844.440685"
+            timestampString = "559902571.307327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "getDeliveriesListBy(offset:onSuccess:onFailure:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
+            timestampString = "559902571.307426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "run(_:base64Encoded:onSuccess:onFailure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tsetatonsisith.DataFetcher.run(_: Tsetatonsisith.DataRequest, base64Encoded: Swift.Bool, onSuccess: (Foundation.Data) -&gt; (), onFailure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tsetatonsisith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sami/Documents/Interview%20Coding%20Tests/LalaMove/Tsetatonsisith/Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
+                  timestampString = "559902572.3511029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in Tsetatonsisith.DataFetcher.run(_: Tsetatonsisith.DataRequest, base64Encoded: Swift.Bool, onSuccess: (Foundation.Data) -&gt; (), onFailure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Tsetatonsisith"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sami/Documents/Interview%20Coding%20Tests/LalaMove/Tsetatonsisith/Tsetatonsisith/Managers/APIManager/DataFetcher.swift"
+                  timestampString = "559902572.3552819"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
